@@ -25,10 +25,10 @@ kind: Service
 metadata:
   name: insurance-app-np-service
   labels:
-    app:insurance-app
+    app: insurance-app
 spec:
   selector:
-    app:insurance-app
+    app: insurance-app
 
   type: NodePort
   ports:
